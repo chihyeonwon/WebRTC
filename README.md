@@ -1,16 +1,16 @@
-# video_call
+# 1:1 영상 통화 앱 구현 video_call
 
-A new Flutter project.
+```
+개발 툴 : Flutter
+개발 언어 : Dart
+개발 일시 : 2023-02-14 ~
+개발자 : Won Chi Hyeon
+```
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 앱 개요
+```
+기능 : 실제 핸드폰을 사용해서 1:1 화상 통화 기능
+       화상 통화를 종료할 수 있는 기능
+       
+사용한 플러그인 : agora_rtc_engine, permission_handler
+```
