@@ -52,4 +52,18 @@ flutter pub add agora_rtc_engine와 flutter pub add permission_handler로 프로
 라이브러리를 설치하고 pub get을 실행해서 변경 사항을 저장합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218633476-c4d0a614-8279-45af-b8c7-d247f434e924.png)
-       
+
+### 네이티브 설정하기
+```
+안드로이드에서 추가할 네이티브 권한들을 설정해줍니다.
+네트워크 상태를 읽는 READ_PHONE_STATE, ACCESS_NETWORK_STATE
+인터넷을 이용해서 영상을 스트리밍해야하기에 INTERNET
+녹음과 녹화 기능과 관련된 RECORD_AUDIO, MODIFY_AUDIO_SETTING, CAMERA
+블루투스를 이용한 녹음과 녹화 기능 BLUETOOTH_CONNECT
+
+모듈의 build.gradle 파일의 compileSdkVersion을 33으로 변경합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218634687-f29f4206-00b2-4715-bc90-a61695d2f33b.png)   
+![image](https://user-images.githubusercontent.com/58906858/218634663-16be9e8b-c23a-435e-aae5-bf822fc1677b.png)
+
+```
