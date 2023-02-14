@@ -45,3 +45,11 @@ pubspec.yaml 파일을 다음과 같이 수정합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218633292-9766f420-d87c-42ac-9ced-7e41fc9d2091.png)   
 ![image](https://user-images.githubusercontent.com/58906858/218633251-e6b14f0b-e217-40d9-b0cb-13805d2c19e6.png)
+
+### 프로젝트에 필요한 라이브러리 설치
+```
+flutter pub add agora_rtc_engine와 flutter pub add permission_handler로 프로젝트에 필요한
+라이브러리를 설치하고 pub get을 실행해서 변경 사항을 저장합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218633476-c4d0a614-8279-45af-b8c7-d247f434e924.png)
+       
