@@ -37,3 +37,11 @@ Temp Token은 24시간만 유효하기에 24시간이 지나면 새로 발급받
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218631335-7db9254d-340d-4f6b-ae16-96a718ed0c83.png)
 
+### 이미지와 추가하기
+[이미지 사이트](https://github.com/codefactory-co/golden-rabbit-flutter-novice/tree/main/ch12/video_call)
+```
+asset/img 파일에 logo, home_img를 프로젝트의 asset/img 파일에 추가합니다.
+pubspec.yaml 파일을 다음과 같이 수정합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218633292-9766f420-d87c-42ac-9ced-7e41fc9d2091.png)   
+![image](https://user-images.githubusercontent.com/58906858/218633251-e6b14f0b-e217-40d9-b0cb-13805d2c19e6.png)
