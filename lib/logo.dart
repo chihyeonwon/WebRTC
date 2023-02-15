@@ -5,6 +5,20 @@ class Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center();
+    return Center(
+      child: Container(
+        decoration: BoxDecoration(
+          color:Colors.blue,
+          borderRadius:BorderRadius.circular(16.0), // 모서리 둥글게 만들기
+          boxShadow:[
+            BoxShadow(
+              color:Colors.blue[300]!,
+              blurRadius: 12.0,
+              spreadRadius: 2.0,
+            ),
+          ],
+        ),
+      )
+    );
   }
 }
