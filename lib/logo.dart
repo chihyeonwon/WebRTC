@@ -18,7 +18,20 @@ class Logo extends StatelessWidget {
             ),
           ],
         ),
-      )
+        child: Padding(
+          padding:EdgeInsets.all(16.0),
+          child:Row(
+            mainAxisSize: MainAxisSize.min, // 주축 최소 크기
+            children:[
+              Icon(
+                Icons.videocam, // 캠코더 아이콘
+                color:Colors.white,
+                size:40.0,
+              ),
+            ]
+          )
+        )
+      ),
     );
   }
 }
