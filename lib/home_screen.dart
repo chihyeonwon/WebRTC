@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'logo.dart';
+import 'image_center.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
           child:Column(
             children: [
               Expanded(child: Logo()), //로고
+              Expanded(child: ImageCenter()), // 이미지
             ],
           ),
         )
