@@ -28,6 +28,15 @@ class Logo extends StatelessWidget {
                 color:Colors.white,
                 size:40.0,
               ),
+              const SizedBox(width: 12.0),
+              Text(
+                'Live',
+                style:TextStyle(
+                  color:Colors.white,
+                  fontSize:30.0,
+                  letterSpacing: 4.0, // 글자 간격
+                )
+              )
             ]
           )
         )
