@@ -78,3 +78,11 @@ Scaffold의 배경색으로 blue[100]!을 적용하였습니다.
 가운데에 asset/img/ 폴더에 추가한 home_img.png 이미지를 넣어주었습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218937370-1ecabd78-1310-499d-973e-d41d60637122.png)
+
+## 화상 통화 시작 버튼 UI 작성
+```
+앱의 맨 밑에 화상 통화 시작 버튼을 생성하였습니다.
+MainAxisAlignment.end으로 맨 밑에 배치하고 CrossAxisAlignment.stretch로 가로방향을 꽉 채우도록 하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218940713-2180af18-eda6-4dd6-9027-fcbc6893c19c.png)
+       
