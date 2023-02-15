@@ -5,7 +5,11 @@ class ImageCenter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center();
+    return Center(
+      child:Image.asset(
+        'asset/img/home_img.png',
+      )
+    );
   }
 }
 
