@@ -72,3 +72,9 @@ Scaffold의 배경색으로 blue[100]!을 적용하였습니다.
 그림자가 있는 로고는 안에 아이콘과 글자가 Container안에 위치한 형태입니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218936962-ea1358ca-63b0-4009-8e8e-e043f6c25e3f.png)
+
+## 이미지 UI 작성
+```
+가운데에 asset/img/ 폴더에 추가한 home_img.png 이미지를 넣어주었습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218937370-1ecabd78-1310-499d-973e-d41d60637122.png)
