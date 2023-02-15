@@ -66,4 +66,9 @@ flutter pub add agora_rtc_engine와 flutter pub add permission_handler로 프로
 ![image](https://user-images.githubusercontent.com/58906858/218634687-f29f4206-00b2-4715-bc90-a61695d2f33b.png)   
 ![image](https://user-images.githubusercontent.com/58906858/218634663-16be9e8b-c23a-435e-aae5-bf822fc1677b.png)
 
+## 로고 UI 작성
 ```
+Scaffold의 배경색으로 blue[100]!을 적용하였습니다.
+그림자가 있는 로고는 안에 아이콘과 글자가 Container안에 위치한 형태입니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/218936962-ea1358ca-63b0-4009-8e8e-e043f6c25e3f.png)
