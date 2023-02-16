@@ -92,3 +92,12 @@ MainAxisAlignment.end으로 맨 밑에 배치하고 CrossAxisAlignment.stretch�
 ```
 ### [버튼을 누르면 캠 스크린으로 화면 전환]
 ![image](https://user-images.githubusercontent.com/58906858/219267715-4a24ad80-bf71-423b-84f2-fe8895287937.png)
+
+## 화상 통화에 필요한 권한을 요청하고 응답받기
+```
+캠 스크린 cam_screen.dart 페이지에서 화상통화에 필요한 권한들(카메라, 마이크) 요청하고 응답을 받아야 합니다.
+권한 관리 라이브러리인 permission_handler 라이브러리를 import하고 카메라와 마이크에 대한 요청과 요청에 대한 응답을
+받습니다. 요청이 허가된(granted) 상태라면 true값을 아니라면 '카메라 또는 마이크 권한이 없습니다.'라는 문구가 출력되도록
+하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/219268804-6a9e0ddd-f8d9-4f8e-bb8b-b35f2d59cf6c.png)
