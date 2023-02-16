@@ -86,3 +86,9 @@ MainAxisAlignment.end으로 맨 밑에 배치하고 CrossAxisAlignment.stretch�
 ```
 ![image](https://user-images.githubusercontent.com/58906858/218940713-2180af18-eda6-4dd6-9027-fcbc6893c19c.png)
        
+## 화상 통화 시작 버튼에 화면 이동 기능 구현
+```
+버튼에 Navigator를 사용해서 캠 스크린으로 화면 전환하는 기능을 추가하였습니다.
+```
+### [버튼을 누르면 캠 스크린으로 화면 전환]
+![image](https://user-images.githubusercontent.com/58906858/219267715-4a24ad80-bf71-423b-84f2-fe8895287937.png)
