@@ -101,3 +101,10 @@ MainAxisAlignment.end으로 맨 밑에 배치하고 CrossAxisAlignment.stretch�
 하였습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/219268804-6a9e0ddd-f8d9-4f8e-bb8b-b35f2d59cf6c.png)
+
+## Future로 위젯 렌더링하기
+```
+권한을 요청하고 응답받는 Future형 함수 init()의 상태값에 따라 위젯을 다르게 렌더링하기 위해서
+FutureBuilder를 사용하여 에러 유무, 데이터 유무 상태에 따라 위젯을 다르게 렌더링하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/219269688-1091d02b-ace1-4ad4-8b1f-741c88c3f066.png)
